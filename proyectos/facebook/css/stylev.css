@@ -1,0 +1,36 @@
+
+.login{
+    padding-top: 5px;
+}
+
+.login div{
+    background-color: rgb(55, 100, 167);
+    padding: 10px;
+    font-size: 13px;
+    font-family: inherit;
+    color: white;
+    height: 90px;
+}
+
+.login input{
+    width: 142px;
+}
+
+#botonAzul{
+    margin-top: 14px;
+    background-color: rgb(55, 100, 167);
+    color:white;
+    width:auto;
+}
+
+.centro{
+    float:left;
+}
+
+.dcha{
+    float: right;
+}
+
+.izq{
+    float: left;
+}

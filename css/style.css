@@ -1,0 +1,82 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    height: 1000px;
+    background: linear-gradient(to bottom, rgb(230, 230, 230) 0%, rgb(150, 150, 255) 100%);
+}
+
+#cabecera {
+    width: 100%;
+    height: 150px;
+}
+
+#cuadroprin {
+    background-color: white;
+    padding: 10px;
+    background-size: 100% 100%;
+    width: 25%;
+    margin: auto;
+}
+
+#registro {
+    padding: 20px;
+    align-content: center center;
+}
+
+.p1 {
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.p2 {
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.p3 {
+    align-items: center;
+    text-align: center;
+    color: rgb(150, 150, 150);
+    font-size: 20px;
+    font-style: bold;
+}
+
+.botonazul {
+    border-width: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(35, 35, 55);
+    background-color: rgb(120, 120, 150);
+    color: black;
+}
+
+.ancho100 {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.fondogris {
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+}
+
+input {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(203, 203, 203);
+}
+
+#enlaces {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: black;
+}

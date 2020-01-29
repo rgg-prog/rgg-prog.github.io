@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rafael Gil Gil Github Site</title>
+    <script>
+        function validar() {
+            var email = document.getElementById("email").value;
+            var pwd = document.getElementById("password").value;
+            if (email == "a" && pwd == "a") {
+                window.location.href = "cv.html";
+            } else {
+                alert("Permisos insuficientes");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="cabecera">
+    </div>
+
+    <div id="cuadroprin">
+        <p class=p1>Login form</p>
+        <p class=p2>Login to access your dashboard</p>
+
+        <div id="registro">
+            <form action="" method="">
+                <input class="ancho100 fondogris" type="email" name="" id="email" placeholder="correo@gmail.com"><br><br>
+
+                <input class="ancho100 fondogris" type="password" name="" id="password" placeholder="contraseña"><br><br>
+
+                <input class="botonazul ancho100" type="submit" value="Validar" onclick="validar()"><br><br>
+            </form>
+        </div>
+
+        <p class=p3>Don´t have account?</p>
+
+    </div>
+
+</body>
+
+</html>
