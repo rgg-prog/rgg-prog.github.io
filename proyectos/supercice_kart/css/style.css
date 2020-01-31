@@ -1,0 +1,29 @@
+.coche {
+	width: 300px;
+
+	-webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	-ms-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+
+#logo {
+	width: 500px;
+}
+
+#linea_meta {
+	position: absolute;
+	top: 71px;
+	left: 1000px;
+	width: 10px;
+	height: 200px;
+	background-color: grey;
+}
+
+.meta {
+	position: absolute;
+	top: 0px;
+	left: 930px;
+	width: 150px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/style.css">
+	<script type="text/javascript" src="./js/juego.js"></script>
+	<title>Super Cice Kart</title>
+
+</head>
+<body onload="inicializar()" onkeyup="capturaPulsacion(event)">
+	<div>
+		<img class="logo" id="logo" src="./images/logo.png">
+	</div>
+
+	<div>
+		<img class="coche" id="player1" src="./images/mercedes.png" onmouseenter="zoom(1)" onmouseleave="antizoom(1)">
+	</div>
+
+	<div>
+		<img class="coche" id="player2" src="./images/ferrari.png" onmouseenter="zoom(2)" onmouseleave="antizoom(2)">
+	</div>
+
+	<div>
+		<img class="meta" src="./images/meta.png" >
+	</div>
+
+	<div id="linea_meta"></div>
+	
+	<div><h1 id="campeon"></h1></div>
+
+	<audio controls id="aplauso" src="./audio/victory.wav"></audio>
+
+</body>
+</html>
