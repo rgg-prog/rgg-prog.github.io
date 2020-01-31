@@ -1,6 +1,41 @@
 @font-face {
+    font-family: 'Klavika Regular';
+    src: url(../fonts/klavika_regular.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
     font-family: 'Klavika Bold';
-    src: url(../fonts/klavika_bold-webfont.woff) format('woff');
+    src: url(../fonts/klavika_bold.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Regular';
+    src: url(../fonts/Segoe_UI.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Italic';
+    src: url(../fonts/Segoe_UI_Italic.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    src: url(../fonts/Segoe_UI_Bold.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Bold Italic';
+    src: url(../fonts/Segoe_UI_Bold_Italic.woff) format('woff');
     font-style: normal;
     font-weight: normal;
 }
