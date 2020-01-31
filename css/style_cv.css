@@ -21,29 +21,22 @@
     width: 100px;
 }
 
-.javascript {
-    background-image: url(../images/logo_javascript.jpg);
-    background-repeat: no-repeat;
-    background-size: 50% 50%;
-    width: 25%;
-    height: 150px;
-    float: left;
-}
-
-.otro {
-    background-image: url(../images/logo_otro.jpg);
-    background-repeat: no-repeat;
-    background-size: 50% 50%;
-    width: 25%;
-    height: 150px;
-    float: left;
-}
-
 #trabajos_java {
+    background-color: rgb(59, 84, 152);
     width: 25%;
-    height: 550px;
+    height: 100px;
     float: left;
     text-align: center;
+
+}
+
+.facebook {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: whitesmoke;
+
+        
 }
 
 #trabajos_python {
