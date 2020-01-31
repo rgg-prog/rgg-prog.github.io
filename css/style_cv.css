@@ -11,27 +11,14 @@
 }
 
 .lenguaje {
-    height: 700px;
+    width: 25%;
+    height: 100px;
     background: linear-gradient(to bottom, rgb(230, 230, 230) 0%, rgb(200, 200, 255) 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
-
-.java {
-    background-image: url(../images/logo_java.jpg);
-    background-repeat: no-repeat;
-    background-size: 60% 60%;
-    width: 25%;
-    height: 150px;
     float: left;
-}
+    }
 
-.python {
-    background-image: url(../images/logo_python.png);
-    background-repeat: no-repeat;
-    background-size: 50% 50%;
-    width: 25%;
-    height: 150px;
-    float: left;
+.logo_lenguaje {
+    width: 100px;
 }
 
 .javascript {
@@ -59,8 +46,34 @@
     text-align: center;
 }
 
+#trabajos_python {
+    width: 25%;
+    height: 550px;
+    float: left;
+    text-align: center;
+}
+
+#trabajos_js {
+    width: 25%;
+    height: 550px;
+    float: left;
+    text-align: center;
+}
+
+.imagen_sck {
+    width: 200px;
+}
+
+#trabajos_otro {
+    width: 25%;
+    height: 550px;
+    float: left;
+    text-align: center;
+}
+
 #enlaces {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
     color: black;
