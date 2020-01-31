@@ -10,6 +10,13 @@
     text-align: center;
 }
 
+#cabecera {
+    font-family: 'Klavika Bold';
+    font-size: medium;
+    font-weight: normal;
+    color: whitesmoke;
+}
+
 .lenguaje {
     width: 25%;
     height: 100px;
