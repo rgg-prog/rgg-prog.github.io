@@ -6,50 +6,59 @@
     background-color: rgb(59, 84, 152);
     /*Azul Faceebook rgb(59, 84, 152)*/
     width: 100%;
-    height: 100px;
+    height: 9vw;
     text-align: center;
-}
-
-#cabecera {
     font-family: 'Klavika Bold';
     font-size: medium;
     font-weight: normal;
     color: whitesmoke;
 }
 
+#cab_text {
+    font-size: 2.75vw;
+}
+
 .lenguaje {
-    width: 25%;
-    height: 100px;
+    width: 24.7%;
+    height: 9vw;
     background: linear-gradient(to bottom, rgb(230, 230, 230) 0%, rgb(200, 200, 255) 100%);
     float: left;
+    display: flex;
+    align-items: center;
 }
 
 .logo_lenguaje {
-    width: 100px;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: flex;
 }
 
 .proyectos {
-    width: 25%;
-    height: 100px;
+    width: 24.7%;
+    height: 9vw;
+    background-color: white;
     float: left;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .work_image {
-    width: 200px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+}
+.cuad_hor {
+    background-color: rgb(190, 190, 190);
+    width: 0.4%;
+    height: 9vw;
+    float: left;
 }
 
-.cuadricula {
+.cuad_ver {
     background-color: rgb(190, 190, 190);
     width: 100%;
-    height: 10px;
+    height: 0.4vw;
     float: left;
 }
